@@ -7,15 +7,15 @@ public class Compte {
     private int code;
     private double solde;
 
-    private Date date;
+    private Date dateCréation;
 
     public Compte() {
     }
 
-    public Compte(int code, double solde, Date date) {
+    public Compte(int code, double solde, Date dateCréation) {
         this.code = code;
         this.solde = solde;
-        this.date = date;
+        this.dateCréation = dateCréation;
     }
 
     public int getCode() {
@@ -34,11 +34,11 @@ public class Compte {
         this.solde = solde;
     }
 
-    public Date getDate() {
-        return date;
+    public Date getDateCréation() {
+        return dateCréation;
     }
 
-    public void setDate(Date date) {
-        this.date = date;
+    public void setDateCréation(Date dateCréation) {
+        this.dateCréation = dateCréation;
     }
 }
